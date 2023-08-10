@@ -1,2 +1,3 @@
 #!/bin/bash
-OUTPUT_FILE="c"; gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -E "$CFILE" -O "$OUTPUT_.FILE"
+echo $CFILE
+OUTPUT_FILE="c"; gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -E "$CFILE" -O "$OUTPUT_FILE"
