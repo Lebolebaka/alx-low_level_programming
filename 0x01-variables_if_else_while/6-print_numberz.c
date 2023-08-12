@@ -6,7 +6,7 @@
  * main - Entry point of the program
  *
  * Description: print numbers more
- * 
+ *
  *
  * Return: Always 0 (Success)
  */
