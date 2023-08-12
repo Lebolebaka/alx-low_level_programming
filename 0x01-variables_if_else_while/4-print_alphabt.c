@@ -5,27 +5,28 @@
 /**
  * main - Entry point of the program
  *
- * Description: print alphabets
- *              
+ * Description: print alphabets exclude
+ *
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char lowercase = 'a';
+char lowercase = 'a';
 
-    while (lowercase <= 'z')
-    {
-        if(lowercase == 'q' || lowercase == 'e')
-	{
-        	lowercase++;
-	}
-	else{
-		putchar(lowercase);
-                lowercase++;
-	}
-    }
-    putchar('\n');
+while (lowercase <= 'z')
+{
+if (lowercase == 'q' || lowercase == 'e')
+{
+lowercase++;
+}
+else
+{
+putchar(lowercase);
+lowercase++;
+}
+}
+putchar('\n');
 
-    return (0);
+return (0);
 }

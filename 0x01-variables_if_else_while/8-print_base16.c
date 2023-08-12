@@ -5,26 +5,26 @@
 /**
  * main - Entry point of the program
  *
- * Description: print alphabets
- *              
+ * Description: print base 16
+ *
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int number;
+int number;
 
-    for (number = 0; number < 10; number++)
-    {
-        putchar('0' + number);
-    }
+for (number = 0; number < 10; number++)
+{
+putchar('0' + number);
+}
 
-    for (number = 0; number < 6; number++)
-    {
-        putchar('a' + number);
-    }
+for (number = 0; number < 6; number++)
+{
+putchar('a' + number);
+}
 
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }

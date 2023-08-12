@@ -5,22 +5,22 @@
 /**
  * main - Entry point of the program
  *
- * Description: print alphabets
- *              
+ * Description: print numbers
+ *
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int number = 0;
+int number = 0;
 
-    while (number <= 9)
-    {
-        putchar(number + '0');  /* Convert number to character */
-        number++;
-    }
+while (number <= 9)
+{
+putchar(number + '0');  /* Convert number to character */
+number++;
+}
 
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }

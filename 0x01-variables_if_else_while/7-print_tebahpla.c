@@ -5,22 +5,22 @@
 /**
  * main - Entry point of the program
  *
- * Description: print alphabets
- *              
+ * Description: print reverse alphabets
+ *
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char lowercase = 'z';
+char lowercase = 'z';
 
-    while (lowercase >= 'a')
-    {
-        putchar(lowercase);
-        lowercase--;
-    }
+while (lowercase >= 'a')
+{
+putchar(lowercase);
+lowercase--;
+}
 
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }
