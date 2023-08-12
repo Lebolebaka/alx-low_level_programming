@@ -6,7 +6,7 @@
  * main - Entry point of the program
  *
  * Description: print lower and uppercase alphabets
- * 
+ *
  *
  * Return: Always 0 (Success)
  */
