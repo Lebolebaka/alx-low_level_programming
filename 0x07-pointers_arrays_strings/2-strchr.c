@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strchr - prints from the first occurrence of a char.
- * @s: source string
+ * @st: source string
  * @c: tested char
  *
  * Return: new string.
@@ -16,7 +16,7 @@ char *_strchr(char *st, char c)
 
 		}
 		else
-			s++;
+			st++;
 	}
 	if (*st == c)
 		return (st);
