@@ -1,7 +1,3 @@
-#ifndef main.h
-#define main.h
-
-
 /* print_alphabt - print the lower-case alphabet on one line. */
 int _putchar(char c);
 void print_alphabet(void);
