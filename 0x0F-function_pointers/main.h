@@ -1,5 +1,5 @@
-#ifndef _main_h_
-#define _main_h_
+#ifndef main.h
+#define main.h
 
 
 /* print_alphabt - print the lower-case alphabet on one line. */
