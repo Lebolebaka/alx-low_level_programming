@@ -1,30 +1,20 @@
-#include <stdarg.h>
-#include <stdio.h>
 #include <stdlib.h>
+
 /**
- * print_numbers - prints integer arguments with a separator
+ * array_iterator - fuction execute a fuction.
+ * @array: array to interate through.
+ * @size: size of the array.
+ * @action: the fuction to execute array and size on.
  *
- * @separator: - thing to print between numbers
- * @n: - number of arguments
- *
- * Return: void
+ * Return: Nothing
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	char *sep;
-	unsigned int i;
-	va_list list;
+	if (!array || !size || !action)
+		return;
 
-	if (separator == NULL || *separator == 0)
-		sep = "";
-	else
-		sep = (char *) separator;
-	va_start(list, n);
-
-	if (n > 0)
-		printf("%d", va_arg(list, int));
-	for (i = 1; i < n; i++)
-		printf("%s%d", sep, va_arg(list, int));
-	printf("\n");
-	va_end(list);
+	while (size--)
+		action(*array++);
 }
+
+
