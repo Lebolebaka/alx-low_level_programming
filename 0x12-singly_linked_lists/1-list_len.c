@@ -9,13 +9,12 @@
  */
 size_t list_len(const list_t *h)
 {
-	size_t n = 0;
+	size_t Lebo_n = 0;
 
 	while (h)
 	{
-		n++;
+		Lebo_n++;
 		h = h->next;
 	}
-	return (n);
+	return (Lebo_n);
 }
-
